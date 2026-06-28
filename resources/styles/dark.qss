@@ -1,0 +1,68 @@
+/* Clean Dark Theme for PySide6 */
+
+QWidget {
+    background-color: #1e1e1e;
+    color: #cccccc;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 13px;
+}
+
+QMainWindow {
+    background-color: #1e1e1e;
+}
+
+QTableView {
+    background-color: #252526;
+    gridline-color: #3e3e42;
+    border: 1px solid #3e3e42;
+    selection-background-color: #094771;
+    selection-color: #ffffff;
+}
+
+QHeaderView::section {
+    background-color: #2d2d30;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid #3e3e42;
+}
+
+QPushButton {
+    background-color: #0e639c;
+    color: #ffffff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 3px;
+}
+
+QPushButton:hover {
+    background-color: #1177bb;
+}
+
+QPushButton:disabled {
+    background-color: #4d4d4d;
+    color: #888888;
+}
+
+QLineEdit, QComboBox {
+    background-color: #3c3c3c;
+    color: #cccccc;
+    border: 1px solid #3e3e42;
+    padding: 5px;
+    border-radius: 2px;
+}
+
+QProgressBar {
+    border: 1px solid #3e3e42;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+}
+
+QProgressBar::chunk {
+    background-color: #0e639c;
+}
+
+QListWidget {
+    background-color: #252526;
+    border: 1px solid #3e3e42;
+}
